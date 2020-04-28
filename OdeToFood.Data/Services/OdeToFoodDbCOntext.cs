@@ -8,7 +8,7 @@ using OdeToFood.Data.Models;
 
 namespace OdeToFood.Data.Services
 {
-    class OdeToFoodDbContext : DbContext
+    public class OdeToFoodDbContext : DbContext
     {
         public DbSet<Restaurant> Restaurants { get; set; }
 
