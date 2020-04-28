@@ -9,7 +9,7 @@ namespace OdeToFood.Web.Controllers
 {
     public class HomeController : Controller
     {
-        IRestaurantData db;
+         readonly IRestaurantData db;
 
         public HomeController(IRestaurantData db)
         {
